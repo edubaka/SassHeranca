@@ -1,0 +1,28 @@
+/* Importando o main */
+html,
+body,
+ul,
+ol {
+  background: #E20074; }
+
+.message, .success, .error, .warning {
+  border: 1px solid #ccc;
+  padding: 10px;
+  color: #333; }
+
+.success {
+  border-color: green; }
+
+.error {
+  border-color: red; }
+
+.warning {
+  border-color: yellow; }
+
+.white, p, #botao-principal {
+  color: #fff; }
+
+p {
+  font-size: 200%; }
+
+/*# sourceMappingURL=teste.css.map */

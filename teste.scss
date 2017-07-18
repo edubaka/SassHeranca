@@ -1,0 +1,31 @@
+/* Importando o main */
+@import 'main';
+
+.message {
+  border: 1px solid #ccc;
+  padding: 10px;
+  color: #333;
+}
+
+.success {
+  @extend .message;
+  border-color: green;
+}
+
+.error {
+  @extend .message;
+  border-color: red;
+}
+
+.warning {
+  @extend .message;
+  border-color: yellow;
+}
+
+.white {color:#fff; }
+
+p{@extend .white;
+  font-size: 200%;
+  }
+
+#botao-principal{  @extend .white; }
